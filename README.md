@@ -7,9 +7,6 @@
 1. **结构提取**：利用 DeepSeek 的 `deepseek-flash` 提取纯粹的 UI 布局 JSON，剥离原图样式干扰。
 2. **风格化生成**：将结构 JSON 和特定的“风格 Prompt”交给 `deepseek-chat`，生成不同视觉风格（极简白、赛博朋克、玻璃拟态等）的 HTML 代码。
 
-## 🎬 演示
-*(在这里放一张你截图或者录的GIF)*
-
 ## 🛠️ 本地运行
 1. 安装依赖：`pip install -r requirements.txt`
 2. 在根目录创建 `.env` 文件，写入 `DEEPSEEK_API_KEY=你的密钥`
